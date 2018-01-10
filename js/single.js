@@ -1,6 +1,6 @@
 var id = localStorage.getItem('key');
 var singleShow = $.ajax({
-    url: 'http://api.tvmaze.com/shows/' + id,
+    url: 'https://api.tvmaze.com/shows/' + id,
     method: 'GET',
     data: {
         embed: ['seasons', 'cast']

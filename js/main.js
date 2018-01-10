@@ -2,7 +2,7 @@ let input = $('#searchMovie').val();
 console.log(input);
 
 let request = $.ajax({
-    url: 'http://api.tvmaze.com/schedule/?country=US',
+    url: 'https://api.tvmaze.com/schedule/?country=US',
     method: 'GET',
 });
 
@@ -37,7 +37,7 @@ $(document).on('change keyup paste', '#searchMovie', function () {
     console.log(input);
 
     let request = $.ajax({
-        url: 'http://api.tvmaze.com/search/shows',
+        url: 'https://api.tvmaze.com/search/shows',
         method: 'GET',
         data: {
             q: input
