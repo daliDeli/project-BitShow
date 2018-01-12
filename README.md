@@ -11,11 +11,11 @@ Demo: [BitShow](https://dalideli.github.io/project-BitShow/)
 ## Stack
 
 ### Language: 
--HTML5 
--CSS3
--JS(ES6) 
+- HTML5 
+- CSS3
+- JS(ES6) 
 
 ### Framework: 
--Bootstrap
--JQuery
+- Bootstrap
+- JQuery
 
