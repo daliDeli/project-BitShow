@@ -2,12 +2,12 @@ let input = $('#searchMovie').val();
 console.log(input);
 
 let request = $.ajax({
-    url: 'https://api.tvmaze.com/schedule/?country=US',
+    url: 'https://api.tvmaze.com/shows',
     method: 'GET',
 });
 
 request.done(output => {
-    console.log(output);
+    console.log(output); 
     output.forEach((e, i) => {
         let div = $('<div>');
         let image = $('<img>');
