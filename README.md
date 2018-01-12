@@ -6,9 +6,16 @@ Demo: [BitShow](https://dalideli.github.io/project-BitShow/)
 ## Showcasing
 - RESTFul API
 - Async/Await
-
+- EcmaScript 6
 
 ## Stack
-- Language: HTML5, CSS3, JS(ES6) 
-- Framework: Bootstrap,JQuery
+
+### Language: 
+-HTML5 
+-CSS3
+-JS(ES6) 
+
+### Framework: 
+-Bootstrap
+-JQuery
 
