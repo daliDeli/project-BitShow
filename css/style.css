@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Mukta+Mahee');
-
-body{  
-    font-family:'Mukta Mahee', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css?family=Vast+Shadow');
 
 nav{
-    background:linear-gradient(#0f0c29, #302b63, #24243e);
+    background: #F0F2F0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000C40, #F0F2F0);
+
 }
 
 h1{
@@ -14,8 +13,10 @@ h1{
 }
 
 .navbar-brand{
+    font-family: 'Vast Shadow', cursive;
     color:white;
-    font-size: 1.5em;
+    font-size: 2em;
+    padding-left: 5vh;
 }
 .elementItem img {
     width: 100%;
@@ -48,6 +49,7 @@ div{
 }
 a:hover{
     text-decoration: none;
+    color: #EEC643;
 }
 
 .searchList li:last-child {

@@ -9,7 +9,6 @@ var singleShow = $.ajax({
 
 singleShow.done(e => {
 
-    console.log(e);
     let title = $("<h1>");
     let img = $("<img>");
 

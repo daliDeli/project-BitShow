@@ -2,7 +2,7 @@ let input = $('#searchMovie').val();
 console.log(input);
 
 let request = $.ajax({
-    url: 'https://api.tvmaze.com/schedule/?country=US',
+    url: 'https://api.tvmaze.com/schedule/?country=GB',
     method: 'GET',
 });
 
