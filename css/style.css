@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Vast+Shadow');
+
+nav{
+    background: #F0F2F0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000C40, #F0F2F0);
+
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar-brand{
+    font-family: 'Vast Shadow', cursive;
+    color:white;
+    font-size: 2em;
+    padding-left: 5vh;
+}
+.elementItem img {
+    width: 100%;
+    padding: 0;
+}
+.image-div img{
+    width: 100%;
+}
+
+div{
+    padding: 10px;
+}
+.container-fluid{
+    padding: 0;
+}
+.searchList{
+    position: absolute;
+    top: 58px;
+    right: 34px;
+    width: 220px;
+    list-style-type: none;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    z-index: 1;
+    
+}
+.searchList li{
+    padding: 5px;
+    border-bottom: 1px solid rgb(199, 194, 194);
+}
+a:hover{
+    text-decoration: none;
+    color: #EEC643;
+}
+
+.searchList li:last-child {
+    border: none;
+}
